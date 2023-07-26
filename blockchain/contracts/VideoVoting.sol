@@ -33,7 +33,7 @@ contract VideoVoting is Ownable, InitData {
         _initializeData();
         votingStartTime = startTime_;
         votingEndTime = endTime_;
-        TOKEN_VOTING = IERC20(0x1ecbdA093724Ad7b2b6B151Ad6bA1dA50059DBC5);
+        TOKEN_VOTING = IERC20(0xF2A7Fc56752A34500Cb2d7b53AD623b606EECdcf);
     }
 
     modifier _checkDate() {
